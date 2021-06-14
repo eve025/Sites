@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 <title>CONTEST</title>
-<meta charset="UTF-8">
+<meta charset="UTF-8" name="description" content="Are you capable to recognoze your favorite characters...Find that out here..">
 <style type="text/css">
     body{
         background-color:#93efa2;
@@ -22,28 +22,52 @@
         margin-left:auto;
         display:block;
     }
-    p{
+     p{
         text-align:center;
         text-transform:uppercase;
-        font-family:Arial Verdana sans-serif;
+        font-family:Blippo, cursive ,fantasy;
+        font-size:23px;
+    }
+    .urdare{
+        text-align:center;
+        text-transform:uppercase;
+        font-family:Blippo, cursive ,fantasy;
+        font-size:23px;
+    }
+    .category{
+        background-color:rgba(50,0,230,0.3);
+        font-variant:small-caps;
+        font-weight:4px;
+        text-align:center;
+        border-radius:10px;
+        padding:5px;
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+        width:230px;
     }
     .guess{
-        text-transform:none;
+        text-transform:uppercase;
         font-variant:small-caps;
         color:red;
         font-weight:900;
+        font-size:19px;
+        font-family:none;
     }
     .contest{
         background-color:#3a3a3a;
         color:white;
-        width:85%;
+        width:250px;
         height:auto;
         margin-right:auto;
         margin-left:auto;
         display:block;
         text-align:center;
-        padding:10px;
+        padding:12px;
         border-radius:20px;
+        font-family:Arial,Verdana,
+        sans-serif;
+        box-shadow:10px 10px 20px pink;
     }
 
     img{
@@ -53,20 +77,20 @@
     }
     .emoji{
         font-size:50px;
-        text-shadow:#B24C5FFF -2px -5px 0.2em;
+        text-shadow:#B24C5F -2px -5px 0.2em;
         text-transform:none;
     }
     .send{
-        background-color:#BE408EFF;
+        background-color:#BE408E;
         font-weight:bold;
         border-radius:5px;
         margin-right:auto;
         margin-left:auto;
         display:block;
-        width:80%;
+        width:200px;
         padding:6px;
-        margin-top:20px;
-        margin-bottom:20px;
+        margin-top:25px;
+        margin-bottom:25px;
         letter-spacing:4px;
     } 
 </style>
@@ -76,29 +100,42 @@
 <div class="h1">
 <h1>welcome to an easy n fun contest!!!</h1>
 </div>
-
-<p>I dare u to win the contest</p>
+    <div class="urdare">
+         <p>I dare you to win the contest</p>
+    </div>
+<botton class="category">Category: Singers
+</botton>
 <p><span class="guess">Guess who is he...</span></p>
 <div class="contest">
 
 1.<img  src="https://i.pinimg.com/originals/b2/22/f4/b222f4a74eb5f19f50646c6eb5dc5b2f.png" type="img/jpg" align="center" alt="post's image"/>
 <form action="">
-    <input type="radio">Post Malone<br/>
-    <input type="radio">Ed Sheraan<br/>
-    <input type="radio">YUNGBLUD<br/>
+    <input type="radio" name="artist" id="q1male" value="post">
+    <label>YUNGBLUD</label><br>
+    <input type="radio" name="artist"
+ id="q1male">
+    <label>Ed Sheraan</label><br>
+    <input type="radio" name="artist" id="q1male">
+    <label>Post Malone</label><br>
 </form>
 
 2.<img src="https://target.scene7.com/is/image/Target/GUEST_35100481-838c-4485-9dee-ac67df5e890f?wid=488&hei=488&fmt=pjpeg" alt="yungblud's funko">
 <form action="">
-    <input type="radio">Post Malone<br/>
-    <input type="radio">Ed Sheraan<br/>
-    <input type="radio">YUNGBLUD<br/>
+    <input type="radio" name="artist" id="q2male">
+    <label>Post Malone</label><br>
+    <input type="radio" name="artist" id="q2male">
+    <label>YUNGBLUD</label><br>
+    <input type="radio" name="artist" id="q2male">
+    <label>Ed Sheraan</label><br>
 </form>
 3.<img src="https://images-na.ssl-images-amazon.com/images/I/81Uot7sNg2L._AC_SL1500_.jpg" alt="edsheraan funko pop">
 <form action="">
-    <input type="radio">Post Malone<br/>
-    <input type="radio">Ed Sheraan<br/>
-    <input type="radio">YUNGBLUD<br/>
+    <input type="radio" name="artist" id="q3male">
+    <label>YUNGBLUD</label><br>
+    <input type="radio" name="artist" id="q3male">
+    <label>Post Malone</label><br>
+    <input type="radio" name="artist" id="q3male">
+    <label>Ed Sheraan</label><br>
 </form>
 </div>
     <p class="emoji">Well done, now the second part &#x2615</p>
@@ -109,28 +146,42 @@
 
     1.<img src="https://i.pinimg.com/originals/24/cb/83/24cb83f5f4c0c2d8885d06a3949fe684.jpg" alt="Billie Eilish's funko">
     <form action="">
-        <input type="radio">Ashnikko<br/>
-        <input type="radio">Ariana Grande<br/>
-        <input type="radio">Billie Eilish<br/>
+        <input type="radio" name="artist" 
+       id="q1female">
+        <label>Ashnikko</label><br>
+        <input type="radio" name="artist" id="q1female">
+        <label>Billie Eilish</label><br>
+        <input type="radio" name="artist"
+       id="q1female">
+        <label>Ariana Grande</label><br>
     </form>
 
      2.<img src="https://pm1.narvii.com/7901/d10a30a1c07bf0d82488778bfeb4d7bd7563a81ar1-2048-2048v2_00.jpg" 
      alt="Ashnikko">
     <form action="">
-        <input type="radio">Ashnikko<br/>
-        <input type="radio">Ariana Grande<br/>
-        <input type="radio">Billie Eilish<br/>
+        <input type="radio" name="artist"
+        id="q2female">
+        <label>Billie Eilish</label><br>
+        <input type="radio" name="artist"
+        id="q2female">
+        <label>Ariana Grande</label><br>
+        <input type="radio" name="artist"
+        id="q2female">
+        <label>Ashnikko</label><br>
     </form>
 
-    3.<img src="https://pbs.twimg.com/media/D42fGlLWAAAUFK-.jpg" alt="">
-    <form action="Ariana's grande funko'">
-        <input type="radio">Ariana Grande<br/>
-        <input type="radio">Billie Eilish<br/>
-        <input type="radio">Ashnikko<br/>
+    3.<img src="https://pbs.twimg.com/media/D42fGlLWAAAUFK-.jpg" alt="Ariana's grande funko">
+    <form action="">
+        <input type="radio" name="artist" id="q3female">
+        <label>Ariana Grande</label><br/>
+        <input type="radio" name="artist" id="q3female" value=ariana>
+        <label>Ashnikko</label><br/>
+        <input type="radio" name="artist" id="q3female" value=billie>
+        <label>Billie Eilish</label><br/>
         </form>
 </div>
     <form action="">
-        <input type="submit" name="Send" class="send">
+        <input type="submit" name="Send" class="send" onclick="fnl()">
     </form>
 <script type="text/javascript">
     alert('Are you ready to win??')
